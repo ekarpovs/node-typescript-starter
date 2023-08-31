@@ -1,5 +1,20 @@
 # Node Typescript Starter
 
+<p>
+  <a href="https://github.com/ekarpovs/node-typescript-starter/actions/workflows/ci-build.yaml" target="_blank">
+    <img alt="CI build" src="https://github.com/ekarpovs/node-typescript-starter/actions/workflows/ci-build.yaml/badge.svg?branch=main" />
+  </a>
+  <a href="https://github.com/ekarpovs/node-typescript-starter#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ekarpovs/node-typescript-starter/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/ekarpovs/node-typescript-starter/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
 Starter for nodejs typescript projects.  
 [Based on the project created with the online CLI](https://bitjson.github.io/typescript-starter/).  
 Refactored according my preferences (the project structure and organization, tools, ci/cd, e.t.c.)
@@ -59,7 +74,7 @@ cd <new-package-name>
 Clone the repository, remove git folder, init the new local git repo and rename the branch from master to main:
 
 ```bash
-git clone https://github.com/ekarpovs/npm-base-package.git .
+git clone https://github.com/ekarpovs/node-typescript-starter.git .
 rm -r .git
 git init
 git branch -m master main
