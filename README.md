@@ -1,8 +1,35 @@
 # Node Typescript Starter
 
-Starter for nodejs typescript projects
+Starter for nodejs typescript projects.  
+[Based on the project created with the online CLI](https://bitjson.github.io/typescript-starter/).  
+Refactored according my preferences (the project structure and organization, tools, ci/cd, e.t.c.)
 
 ### The project file system tree:
+
+.  
+├── .cspell.json  
+├── .editorconfig  
+├── .eslintrc.json  
+├── .github  
+│   ├── ISSUE*TEMPLATE.md  
+│   └── PULL_REQUEST_TEMPLATE.md  
+├── .gitignore  
+├── .husky  
+│   ├── *  
+│   ├── pre-commit  
+│   └── pre-push  
+├── .prettierignore  
+├── .vscode  
+├── LICENSE  
+├── README.md  
+├── jest.config.js  
+├── package-lock.json  
+├── package.json  
+├── src  
+│   ├── index.ts  
+│   └── types  
+│   └── example.d.ts  
+└── tsconfig.json
 
 ### The project infrastructure
 
