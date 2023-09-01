@@ -16,7 +16,7 @@
 </p>
 
 Starter for nodejs typescript projects.  
-[Based on the project created with the online CLI](https://bitjson.github.io/typescript-starter/).  
+Based on the project created with the [online CLI](https://bitjson.github.io/typescript-starter/).  
 Refactored according my preferences (the project structure and organization, tools, ci/cd, e.t.c.)
 
 ### The project file system tree:
