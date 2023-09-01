@@ -23,7 +23,8 @@
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
     "test": "jest --detectOpenHandles --coverage --verbose",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "run": "run-s build && node build/main/index.js"
   },
   "engines": {
     "node": ">=16"
