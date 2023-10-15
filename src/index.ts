@@ -24,6 +24,7 @@ const connect = async () => {
     console.log('Connected to Mongo');
   } catch (error) {
     console.log('Can"t connect to Mongo');
+    process.exit(1);
   }
 };
 
